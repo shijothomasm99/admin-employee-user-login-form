@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utilities.css" />
+    <script src="https://kit.fontawesome.com/a74266306a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="brand flex">
+        <div class="brand-logo">
+          <img
+            src="images/brandlogo.png"
+            width="150px"
+            height="80x"
+            alt="It's a brand logo"
+          />
+        </div>
+        <div class="brand-name">
+          <h1>Cruix</h1>
+        </div>
+      </div>
+    </header>
+
+    <div class="navbar">
+      <div class="container">
+        <ul class="nav flex">
+          <li class="nav-item"><a class="btn" href="#">Home</a></li>
+          <li class="nav-item"><a class="btn" href="#">About</a></li>
+          <li class="nav-item"><a class="btn" href="#">Contacts</a></li>
+          <li class="nav-item"><a class="btn" href="#">Blogs</a></li>
+          <li class="nav-item">
+            <div class="dropdown">         
+                <button class="dropdown-btn btn">Login <i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></button>             
+              <div class="dropdown-list">
+                <a href="admin.html">Admin</a>
+                <a href="employee.html">Employee</a>
+                <a href="user.html">User</a>
+              </div>
+            </div>    
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section-body flex">
+      <div class="sign-up">
+        <div class="grid">
+          <div><h1>Signup</h1></div>
+          <form action="">
+            <label for="fname">First Name</label><br />
+            <input type="text" id="fname" name="fname" /><br />
+            <label for="lname">Last Name</label><br />
+            <input type="text" id="lname" name="lname" /><br />
+            <label for="email">Email</label><br />
+            <input type="email" id="email" name="email" /><br />
+            <label for="password">Password</label><br />
+            <input type="password" id="password" name="password" /><br />
+            <input class="submit" type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container titles flex">
+        <div><p>Conditions of use</p></div>
+        <div><p>Privacy Notice</p></div>
+        <div><p>Contact us</p></div>
+        <div><p>&#169 2022-2023</p></div>
+        <div class="social-icons flex">
+          <div>Follow us</div>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
